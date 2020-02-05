@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="18G95" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Armadillo" representedClassName=".Armadillo" syncable="YES">
+        <attribute name="account" optional="YES" attributeType="String"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="lastpw" optional="YES" attributeType="String"/>
+        <attribute name="pw" optional="YES" attributeType="String"/>
+        <attribute name="username" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Armadillo" positionX="-63" positionY="-18" width="128" height="148"/>
+    </elements>
+</model>
