@@ -62,7 +62,13 @@ struct ContentView: View {
                 }
                 
                 .navigationBarTitle(Text("Keys"))
-                .navigationBarItems(trailing: Button(action: {
+
+                .navigationBarItems(leading: Button(action: {
+                    
+                }){
+                    Image(systemName: "person.circle").resizable().frame(width: 25, height: 25)
+                    }
+                    ,trailing: Button(action: {
                     
                 }){
                     Image(systemName: "plus.circle").resizable().frame(width: 25, height: 25)
